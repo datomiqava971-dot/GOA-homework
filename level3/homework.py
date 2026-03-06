@@ -22,7 +22,7 @@ print(name)
 
 number = 5
 text = " apples"
-print(number * text)
+print(str(number) + text)
 
 name = "liKa"
 name2 = name + "4"
