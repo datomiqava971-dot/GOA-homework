@@ -60,8 +60,3 @@ index1=0
 while index1<24:
     print(index1)
     index1+=1
-
-
-
-
-
