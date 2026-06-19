@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>My feedback form</title>
+</head>
+<body>
+
+<h1>My feedback form</h1>
+
+<ul>
+  <li>Name: <input type="text" name="name"></li>
+  <li>Email: <input type="email" name="email"></li>
+  <li>Password: <input type="password" name="password"></li>
+
+  <li>
+    <p>Please check all the emotions that apply to you:</p>
+    <ul>
+      <li><label><input type="checkbox" name="emotion" value="angry"> Angry</label></li>
+      <li><label><input type="checkbox" name="emotion" value="sad"> Sad</label></li>
+      <li><label><input type="checkbox" name="emotion" value="happy"> Happy</label></li>
+      <li><label><input type="checkbox" name="emotion" value="ambivalent"> Ambivalent</label></li>
+    </ul>
+  </li>
+
+  <li>
+    <p>How satisfied were you with our service?</p>
+    <ul>
+      <li><label><input type="radio" name="satisfaction" value="very_satisfied"> Very satisfied</label></li>
+      <li><label><input type="radio" name="satisfaction" value="satisfied"> Satisfied</label></li>
+      <li><label><input type="radio" name="satisfaction" value="didnt_care"> Didn't care</label></li>
+      <li><label><input type="radio" name="satisfaction" value="dissatisfied"> Dissatisfied</label></li>
+      <li><label><input type="radio" name="satisfaction" value="very_dissatisfied"> Very dissatisfied</label></li>
+    </ul>
+  </li>
+
+  <li>Further comments: <textarea name="comments"></textarea></li>
+
+  <li>Bio photo: <input type="file" name="bio_photo" style="display:none" id="bioPhoto">
+   <button>chose</button>
+  </li>
+
+  <li>Location visited:
+    <select name="location">
+      <option value="">Select location</option>
+      <option value="tbilisi">Tbilisi</option>
+      <option value="batumi">Batumi</option>
+      <option value="kutaisi">Kutaisi</option>
+    </select>
+  </li>
+</ul>
+
+<ul>
+  <li><input type="submit"></li>
+</ul>
+
+</body>
+</html>
