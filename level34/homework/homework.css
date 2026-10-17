@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: green;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: brown;
+}
+
+.style-link:link {
+    color:blue;
+    text-decoration: none;
+}
+
+
+.style-link:visited {
+    color: #800080;
+}

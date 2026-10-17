@@ -1,0 +1,18 @@
+ body {
+      background-color: #f5f5f5;
+    }
+
+    .styled-table {
+      border-collapse: collapse;
+      background-color: #ffffff;
+    }
+
+    .styled-table th {
+      background-color: #009677; 
+      color: #ffffff;
+    }
+
+
+    .styled-table tbody tr:first-child {
+      background-color: #dddddd;
+    }
